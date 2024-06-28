@@ -1,0 +1,24 @@
+*.csproj.*
+.vs/*
+*.pdb
+*.suo
+*.opensdf
+*.sdf
+*.tmp
+*.mdb
+*.vcxproj
+*.sln
+*.xcworkspace
+*.xcodeproj
+.git/*
+*.csprojAssemblyReference.cache
+__pycache__/**
+.idea/**
+
+
+# Ignore personal workspace vars
+p4config.txt
+.env
+
+# Drafts
+Draft/**

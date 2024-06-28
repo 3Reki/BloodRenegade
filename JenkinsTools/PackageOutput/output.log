@@ -1,0 +1,1231 @@
+Running AutomationTool...
+Using bundled DotNet SDK version: 6.0.302
+Starting AutomationTool...
+Parsing command line: -ScriptsForProject=D:\BloodRenegade\BloodRenegade\BloodRenegade.uproject Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=60922 -project=D:\BloodRenegade\BloodRenegade\BloodRenegade.uproject BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook -project=D:\BloodRenegade\BloodRenegade\BloodRenegade.uproject -target=BloodRenegade -unrealexe="C:\Program Files\EpicGames\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -build -pak -iostore -compressed -prereqs -archivedirectory=D:\BloodRenegade\Exe -CrashReporter -clientconfig=Development
+Initializing script modules...
+Total script module initialization time: 0.19 s.
+Executing commands...
+
+Installed Sdk validity:
+Win64: (Status=Valid, MinAllowed_Sdk=10.0.00000.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.18362.0, Allowed_AutoSdk=10.0.18362.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists, Sdk_HasBestVersion")
+Scanning for envvar changes...
+... done! 
+
+Cleaning Temp Paths...
+BUILD SUCCESSFUL
+Setting up ProjectParams for D:\BloodRenegade\BloodRenegade\BloodRenegade.uproject
+********** BUILD COMMAND STARTED **********
+Running: C:\Program Files\EpicGames\UE_5.2\Engine\Binaries\ThirdParty\DotNet\6.0.302\windows\dotnet.exe "C:\Program Files\EpicGames\UE_5.2\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" BloodRenegade Win64 Development -Project=D:\BloodRenegade\BloodRenegade\BloodRenegade.uproject  D:\BloodRenegade\BloodRenegade\BloodRenegade.uproject -NoUBTMakefiles  -remoteini="D:\BloodRenegade\BloodRenegade"  -skipdeploy  -Manifest=D:\BloodRenegade\BloodRenegade\Intermediate\Build\Manifest.xml -NoHotReload -log="C:\Users\c.oger\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+EpicGames+UE_5.2\UBT-BloodRenegade-Win64-Development.txt"
+Log file: C:\Users\c.oger\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+EpicGames+UE_5.2\UBT-BloodRenegade-Win64-Development.txt
+Writing manifest to D:\BloodRenegade\BloodRenegade\Intermediate\Build\Manifest.xml
+Target is up to date
+Total execution time: 1.80 seconds
+Took 1,9492812s to run dotnet.exe, ExitCode=0
+Build command time: 1,99 s
+********** BUILD COMMAND COMPLETED **********
+********** COOK COMMAND STARTED **********
+Running UnrealEditor Cook for project D:\BloodRenegade\BloodRenegade\BloodRenegade.uproject
+Commandlet log file is C:\Program Files\EpicGames\UE_5.2\Engine\Programs\AutomationTool\Saved\Cook-2024.03.18-11.50.47.txt
+Running: C:\Program Files\EpicGames\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Cmd.exe D:\BloodRenegade\BloodRenegade\BloodRenegade.uproject -run=Cook  -TargetPlatform=Windows  -unversioned -fileopenlog -abslog="C:\Program Files\EpicGames\UE_5.2\Engine\Programs\AutomationTool\Saved\Cook-2024.03.18-11.50.47.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+LogInit: Display: Running engine for game: BloodRenegade
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot'
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.2-CL-26001984"
+LogCsvProfiler: Display: Metadata set : engineversion="5.2.1-26001984+++UE5+Release-5.2"
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.4046] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-10900K CPU @ 3.70GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" D:\BloodRenegade\BloodRenegade\BloodRenegade.uproject -run=Cook -TargetPlatform=Windows -unversioned -fileopenlog -abslog="C:\Program Files\EpicGames\UE_5.2\Engine\Programs\AutomationTool\Saved\Cook-2024.03.18-11.50.47.txt" -stdout -CrashForUAT -unattended -NoLogTimes -UTF8Output""
+LogCsvProfiler: Display: Metadata set : loginid="d3dab3c54253573f6761eeab39488501"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+LogConfig: Display: Loading HoloLens ini files took 0.03 seconds
+LogConfig: Display: Loading Mac ini files took 0.03 seconds
+LogConfig: Display: Loading IOS ini files took 0.03 seconds
+LogConfig: Display: Loading Android ini files took 0.03 seconds
+LogConfig: Display: Loading Windows ini files took 0.04 seconds
+LogConfig: Display: Loading Unix ini files took 0.04 seconds
+LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.04 seconds
+LogConfig: Display: Loading Linux ini files took 0.04 seconds
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/TraceUtilities/Content/' mounted to '/TraceUtilities/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/BlueprintHeaderView/Content/' mounted to '/BlueprintHeaderView/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GLTFImporter/Content/' mounted to '/GLTFImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosCaching/Content/' mounted to '/ChaosCaching/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/Dataflow/Content/' mounted to '/Dataflow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/CommonUI/Content/' mounted to '/CommonUI/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryScripting/Content/' mounted to '/GeometryScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GPULightmass/Content/' mounted to '/GPULightmass/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PCG/Content/' mounted to '/PCG/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PCGGeometryScriptInterop/Content/' mounted to '/PCGGeometryScriptInterop/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/DeformerGraph/Content/' mounted to '/DeformerGraph/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/RigLogic/Content/' mounted to '/RigLogic/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/NiagaraSimCaching/Content/' mounted to '/NiagaraSimCaching/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/NiagaraFluids/Content/' mounted to '/NiagaraFluids/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Interchange/Runtime/Content/' mounted to '/Interchange/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/PixelStreaming/Content/' mounted to '/PixelStreaming/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/PixelCapture/Content/' mounted to '/PixelCapture/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/VirtualProduction/Takes/Content/' mounted to '/Takes/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/LightMixer/Content/' mounted to '/LightMixer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/ObjectMixer/Content/' mounted to '/ObjectMixer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AR/ARUtilities/Content/' mounted to '/ARUtilities/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Content/' mounted to '/ConcertSyncClient/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AR/AppleAR/AppleARKit/Content/' mounted to '/AppleARKit/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AR/AppleAR/AppleARKitFaceSupport/Content/' mounted to '/AppleARKitFaceSupport/'
+LogPackageName: Display: FPackageName: Mount point added: 'D:/BloodRenegade/BloodRenegade/Plugins/GenericGraph/Content/' mounted to '/GenericGraph/'
+LogPackageName: Display: FPackageName: Mount point added: 'D:/BloodRenegade/BloodRenegade/Plugins/Wwise/Content/' mounted to '/Wwise/'
+LogPackageName: Display: FPackageName: Mount point added: 'D:/BloodRenegade/BloodRenegade/Plugins/WwiseNiagara/Content/' mounted to '/WwiseNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: 'D:/BloodRenegade/BloodRenegade/Plugins/Runtime/HoudiniEngine/Content/' mounted to '/HoudiniEngine/'
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogHAL: Display: Platform has ~ 64 GB [68483776512 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+LogTargetPlatformManager: Display: Building Assets For Windows
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (2145 MiB)
+LogDerivedDataCache: Display: Performance to C:/Users/c.oger/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=199.78MBs, RandomWriteSpeed=77.70MBs. Assigned SpeedClass 'Local'
+LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+LogShaderCompilers: Display: Using FastBuild Controller for Shader Compilation.
+LogShaderCompilers: Display: Compiling shader autogen file: D:/BloodRenegade/BloodRenegade/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogEditorDomain: Display: EditorDomain is Disabled
+LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+LogShaderCompilers: Display: Compiling shader autogen file: D:/BloodRenegade/BloodRenegade/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogShaderCompilers: Display: Compiling shader autogen file: D:/BloodRenegade/BloodRenegade/Intermediate/ShaderAutogen/PCD3D_ES3_1/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+LogWwiseSoundEngine: Display: Loading Wwise Sound Engine version 2023.1
+LogWwiseResourceLoader: Display: Initializing default Resource Loader.
+LogWwiseProjectDatabase: Display: Initializing default Project Database.
+LogAkAudio: Display: Wwise SoundEngine is disabled: Running a commandlet.
+LogWwiseNiagara: Display: Initializing default Niagara.
+LogWwiseReconcile: Display: Starting Wwise Reconcile Module
+LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+LogCook: Display: CookSettings for Memory:
+	MemoryMaxUsedVirtual 0MiB
+	MemoryMaxUsedPhysical 0MiB
+	MemoryMinFreeVirtual 2048MiB
+	MemoryMinFreePhysical 2048MiB
+	MemoryTriggerGCAtPressureLevel None
+	UseSoftGC true (5/10)
+LogCook: Display: Waiting for Asset Registry
+LogCook: Display: Clearing all cooked content for platform Windows
+LogCook: Display: Sandbox cleanup took 0.069 seconds for platforms Windows
+LogCook: Display: Compiling global changed shaders for platform 'Windows'
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM6-PCD3D_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 408 (40800.00%)
+LogShaderLibrary: Display: Total Shaders: 4720, Unique Shaders: 4720 (100.00%)
+LogShaderLibrary: Display: Total Shader Size: 83.75mb, Unique Shaders Size: 83.75mb (100.00%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 269
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+LogShaderLibrary: Display: Textual dump saved to 'D:/BloodRenegade/BloodRenegade/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-Global-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5-PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 383 (38300.00%)
+LogShaderLibrary: Display: Total Shaders: 4195, Unique Shaders: 4179 (99.62%)
+LogShaderLibrary: Display: Total Shader Size: 26.34mb, Unique Shaders Size: 26.34mb (99.98%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 269
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     4, 3, 2, 2, 2, 2, 2, 2, 2, 2
+LogShaderLibrary: Display: Textual dump saved to 'D:/BloodRenegade/BloodRenegade/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Warning: Unable to find package for cooking /Game/Maps/NewBlueprint. Instigator: { StartupSoftObjectPath }.
+LogCook: Display: Discovering localized assets for cultures: en
+LogCook: Display: Cooked packages 0 Packages Remain 469 Total 469
+LogCook: Display: Cook Diagnostics: OpenFileHandles=177, VirtualMemory=1467MiB
+LogTexture: Display: Texture Encode Speed: Final (cook).
+LogTexture: Warning: AlternateTextureCompression specified but Module not found: TextureFormatOodle.
+LogWwiseResourceCooker: Display: Initializing default Resource Cooker.
+LogWwiseResourceCooker: Display: Starting cooking process for platform Windows (UE: Windows, Wwise: Windows)
+LogWwiseConcurrency: Display: Initializing default Concurrency.
+LogWwiseFileHandler: Display: Initializing default External Source Manager.
+LogWwiseResourceCooker: Display: SetSandboxRootPath: Updating Sandbox Root Path: D:/BloodRenegade/BloodRenegade/Saved/Cooked/Windows/BloodRenegade/Content
+LogWwiseResourceCooker: Display: Adding file D:/BloodRenegade/BloodRenegade/Saved/Cooked/Windows/BloodRenegade/Content/WwiseAudio/Init.bnk [453 bytes]
+LogCook: Display: Cooked packages 433 Packages Remain 1208 Total 1641
+LogWwiseResourceCooker: Display: Adding file D:/BloodRenegade/BloodRenegade/Saved/Cooked/Windows/BloodRenegade/Content/WwiseAudio/Main.bnk [12631584 bytes]
+LogMaterial: Warning: Please resave MaterialFunction /Game/GameArt/MasterMaterial/Characters/MF_EyeHighlights.MF_EyeHighlights.  It is missing a material expression and this will cause any material using this function to recompile shaders each time it loads.
+LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\Characters\Mannequin_UE4\Meshes\SK_Mannequin.uasset: Failed to load '/Game/GameArt/DRAFT/YM/CharacterEmission/DirectionnalEmissionDetection/M_LightControlledCharacterEmission': Can't find file.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\Characters\Mannequin_UE4\Meshes\SK_Mannequin.uasset: VerifyImport: Failed to load package for import object 'Package /Game/GameArt/DRAFT/YM/CharacterEmission/DirectionnalEmissionDetection/M_LightControlledCharacterEmission'
+LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_Mannequin) ...
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Child/A_Pose3.A_Pose3
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/A_Salut.A_Salut
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/A_SoldierIdle.A_SoldierIdle
+LogCook: Display: Cooked packages 939 Packages Remain 715 Total 1654
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Hard_Landing.A_MC_Hard_Landing
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_CrouchIdle.A_CrouchIdle
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_Fall.A_Fall
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_Idle.A_Idle
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Blind_Start.A_MC_Blind_Start
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Decoy_Loop.A_MC_Decoy_Loop
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Decoy_Start.A_MC_Decoy_Start
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Hang_Idle.A_MC_Hang_Idle
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Idle_Duo.A_MC_Idle_Duo
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Jump_End.A_MC_Jump_End
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_NightmareForme_Idle.A_MC_NightmareForme_Idle
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Start_Dash.A_MC_Start_Dash
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Walk_Duo.A_MC_Walk_Duo
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_NightmareFormeWalk.A_NightmareFormeWalk
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_StartJumping.A_StartJumping
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/BiteTempo/A_BiteTempo_Loop.A_BiteTempo_Loop
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/BiteTempo/A_BiteTempo_Start.A_BiteTempo_Start
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_LedgeClimb.A_LedgeClimb
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Death.A_MC_Death
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_End_Hook.A_MC_End_Hook
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Idle_to_Little_Climb.A_MC_Idle_to_Little_Climb
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_CrouchWalk.A_CrouchWalk
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_CrouchWalkSlow.A_CrouchWalkSlow
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_HideIdleLeft.A_HideIdleLeft
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_HideIdleRight.A_HideIdleRight
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_IseraHideCrouchIdleLeft.A_IseraHideCrouchIdleLeft
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_IseraHideCrouchIdleRight.A_IseraHideCrouchIdleRight
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_IseraHideCrouchWalkLeft.A_IseraHideCrouchWalkLeft
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_IseraHideCrouchWalkRight.A_IseraHideCrouchWalkRight
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_HideWalkLeft.A_MC_HideWalkLeft
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_HideWalkRight.A_MC_HideWalkRight
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Hang_Shimmy_Left.A_MC_Hang_Shimmy_Left
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_Walk.A_Walk
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Hang_Shimmy_Right.A_MC_Hang_Shimmy_Right
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_Run.A_Run
+LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\BP\ProtoMindControl\WBP_PossessTimer.uasset: Failed to load '/Game/GameArt/UI/HUD_SoldierPosess': Can't find file.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\BP\ProtoMindControl\WBP_PossessTimer.uasset: VerifyImport: Failed to load package for import object 'Package /Game/GameArt/UI/HUD_SoldierPosess'
+LogCook: Display: Cooked packages 1160 Packages Remain 914 Total 2074
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163211915, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163201912, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163194910, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163180906, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163198911, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163215916, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163177905, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163191909, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163173904, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163184907, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163187908, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163208914, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163204913, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB451C101_1521078262, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB451C101_1521081263, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB451C101_1521074261, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1253031111, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1253024109, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1253035112, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1253028110, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1253038113, they are designed to work with AAIControllers!
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/A_Soldier_Shooting.A_Soldier_Shooting
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/A_SoldierStrike.A_SoldierStrike
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/A_Interact.A_Interact
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/A_Soldier_Detected_Run.A_Soldier_Detected_Run
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/A_Soldier_Detected_Walk_Backward.A_Soldier_Detected_Walk_Backward
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/A_Soldier_Detected_Walk.A_Soldier_Detected_Walk
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/A_Soldier_Bitten.A_Soldier_Bitten
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/A_Soldier_Walk.A_Soldier_Walk
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/A_Soldier_Detected_Walk_Right.A_Soldier_Detected_Walk_Right
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/A_Soldier_Stun.A_Soldier_Stun
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/A_Soldier_Nightmare_Execution_Bite.A_Soldier_Nightmare_Execution_Bite
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/TempoBite/A_Soldier_BiteTempoExecut.A_Soldier_BiteTempoExecut
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/TempoBite/A_Solider_TempoLoop.A_Solider_TempoLoop
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/TempoBite/A_Solider_TempoStartBite.A_Solider_TempoStartBite
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Soldier/TempoBite/A_Soldier_TempoDrinkBite.A_Soldier_TempoDrinkBite
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB456C101_1212478141, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB456C101_1212474140, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB456C101_1212481142, they are designed to work with AAIControllers!
+LogCook: Display: Cooked packages 1528 Packages Remain 398 Total 1926
+LogCook: Display: Cooked packages 1663 Packages Remain 322 Total 1985
+LogMaterial: Display: Missing cached shadermap for M_EyeRefractive in PCD3D_SM6, Low, SM6 (DDC key hash: f4dbb8bed047969cbae8e74a39812cb5d1d17f35), compiling.
+LogShaderCompilers: Display: Current jobs: 80, Batch size: 6, Num Already Dispatched: 0
+LogBlueprint: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\Environment\DownloadedProps\Brutalism\BrutalistLevelKit\Blueprints\Furniture\Parent\BP_P_Furniture.uasset: [Compiler] Add Instance World Space : Usage of 'Add Instance World Space' has been deprecated. Use 'Add Instance' or 'Add Instances' with 'World Space' set to true.
+LogMaterial: Display: Missing cached shadermap for MI_ChildEyes in PCD3D_SM6, Low, SM6 (DDC key hash: 92bcca523b8bbdd22d0e8bd3270dd7a4f121be8a), compiling.
+LogShaderCompilers: Display: Current jobs: 80, Batch size: 7, Num Already Dispatched: 80
+LogMaterial: Display: Missing cached shadermap for MI_MC_Eyes in PCD3D_SM6, Low, SM6 (DDC key hash: 573e0d05c28de247084fe7b852c5ecec243266a6), compiling.
+LogShaderCompilers: Display: Current jobs: 80, Batch size: 7, Num Already Dispatched: 160
+LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_MC) ...
+LogCook: Display: Cooked packages 1851 Packages Remain 164 Total 2015
+LogBlueprint: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\Environment\DownloadedProps\Brutalism\BrutalistLevelKit\Blueprints\Building\Parent\BP_P_Building.uasset: [Compiler] Add Instance World Space : Usage of 'Add Instance World Space' has been deprecated. Use 'Add Instance' or 'Add Instances' with 'World Space' set to true.
+LogCook: Display: Cooked packages 1936 Packages Remain 79 Total 2015
+LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\__ExternalActors__\Maps\L_BasicLevel_Blockout\0\9D\EXIZPL8XN9C400P9XZCTGC.uasset: Failed to load '/Game/LevelDesign/BP_LevelObjects/BP_Lamp': Can't find file.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\__ExternalActors__\Maps\L_BasicLevel_Blockout\0\9D\EXIZPL8XN9C400P9XZCTGC.uasset: VerifyImport: Failed to load package for import object 'Package /Game/LevelDesign/BP_LevelObjects/BP_Lamp'
+LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\__ExternalActors__\Maps\L_BasicLevel_Blockout\0\XR\52OXDDX2NWOYLRTX8T4QYA.uasset: Failed to load '/Game/Draft/SQ_LedgeBite': Can't find file.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\__ExternalActors__\Maps\L_BasicLevel_Blockout\0\XR\52OXDDX2NWOYLRTX8T4QYA.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Draft/SQ_LedgeBite'
+LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\Megascans\Decals\Graffiti_vlrkdiyc\MI_Graffiti_vlrkdiyc_1K.uasset: Failed to load '/Game/Megascans/Decals/Graffiti_vlrkdiyc/T_Graffiti_vlrkdiyc_1K_D': Can't find file.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\Megascans\Decals\Graffiti_vlrkdiyc\MI_Graffiti_vlrkdiyc_1K.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Megascans/Decals/Graffiti_vlrkdiyc/T_Graffiti_vlrkdiyc_1K_D'
+LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\Megascans\Decals\Graffiti_vlrkdiyc\MI_Graffiti_vlrkdiyc_1K.uasset: Failed to load '/Game/Megascans/Decals/Graffiti_vlrkdiyc/T_Graffiti_vlrkdiyc_1K_DpRA': Can't find file.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\Megascans\Decals\Graffiti_vlrkdiyc\MI_Graffiti_vlrkdiyc_1K.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Megascans/Decals/Graffiti_vlrkdiyc/T_Graffiti_vlrkdiyc_1K_DpRA'
+LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\__ExternalActors__\Maps\L_BasicLevel_Blockout\B\A4\LI42OV4TU8JLZ9T68GJXRX.uasset: Failed to load '/Game/Draft/SQ_Moveset': Can't find file.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\__ExternalActors__\Maps\L_BasicLevel_Blockout\B\A4\LI42OV4TU8JLZ9T68GJXRX.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Draft/SQ_Moveset'
+LogCook: Display: Loading secondary levels for package 'L_BasicLevel_Blockout'
+LogCook: Display: Cooked packages 1952 Packages Remain 1272 Total 3224
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'BP_HookPoint': BP_Lamp_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_Lamp_C_UAID_BCE92FA2CAB479E001_1488118268
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Lamp_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_Lamp_C_UAID_BCE92FA2CAB479E001_1488118268
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SpotLight1': BP_Lamp_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_Lamp_C_UAID_BCE92FA2CAB479E001_1488118268
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SM_NYCB1_Lamp_01': BP_Lamp_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_Lamp_C_UAID_BCE92FA2CAB479E001_1488118268
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Blind_End.A_MC_Blind_End
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_MC_Decoy_End.A_MC_Decoy_End
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_Nightmare_Execution_Bite.A_Nightmare_Execution_Bite
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/A_NightmareFormIn.A_NightmareFormIn
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/BiteTempo/A_BiteTempo_Drink.A_BiteTempo_Drink
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/MainCharacter/BiteTempo/A_BiteTempo_Execut.A_BiteTempo_Execut
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalActors' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Environment/Stairs/Parent/BP_P_Stairs.BP_P_Stairs_C:SpawnFromSockets'!
+LogScript: Warning: Script Msg called by: BP_P_Stairs_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_P_Stairs_C_UAID_BCE92FA2CC468EC301_1749487111
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalActors' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Environment/Stairs/Parent/BP_P_Stairs.BP_P_Stairs_C:SpawnFromSockets'!
+LogScript: Warning: Script Msg called by: BP_P_Stairs_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_P_Stairs_C_UAID_BCE92FA2CC468EC301_1749487111
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_1
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalActors' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Environment/Stairs/Parent/BP_P_Stairs.BP_P_Stairs_C:SpawnFromSockets'!
+LogScript: Warning: Script Msg called by: BP_P_Stairs_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_P_Stairs_C_UAID_BCE92FA2C51DD3C401_1141060271
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalActors' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Environment/Stairs/Parent/BP_P_Stairs.BP_P_Stairs_C:SpawnFromSockets'!
+LogScript: Warning: Script Msg called by: BP_P_Stairs_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_P_Stairs_C_UAID_BCE92FA2C51DD3C401_1141060271
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalActors' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Environment/Stairs/Parent/BP_P_Stairs.BP_P_Stairs_C:SpawnFromSockets'!
+LogScript: Warning: Script Msg called by: BP_P_Stairs_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_P_Stairs_C_4
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalActors' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Environment/Stairs/Parent/BP_P_Stairs.BP_P_Stairs_C:SpawnFromSockets'!
+LogScript: Warning: Script Msg called by: BP_P_Stairs_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_P_Stairs_C_4
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_2
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalActors' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Environment/Stairs/Parent/BP_P_Stairs.BP_P_Stairs_C:SpawnFromSockets'!
+LogScript: Warning: Script Msg called by: BP_P_Stairs_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_P_Stairs_C_UAID_BCE92FA2CC468EC301_1749491113
+LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalActors' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Environment/Stairs/Parent/BP_P_Stairs.BP_P_Stairs_C:SpawnFromSockets'!
+LogScript: Warning: Script Msg called by: BP_P_Stairs_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_P_Stairs_C_UAID_BCE92FA2CC468EC301_1749491113
+LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\Environment\Landmarks\LandmarksPlaceholder\SM_SolarLandmark_bfx.uasset: Failed to load '/Game/GameArt/DRAFT/YM/SunAltar/M_Triangle': Can't find file.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\Environment\Landmarks\LandmarksPlaceholder\SM_SolarLandmark_bfx.uasset: VerifyImport: Failed to load package for import object 'Package /Game/GameArt/DRAFT/YM/SunAltar/M_Triangle'
+LogCook: Display: Loading secondary levels for package 'L_ACT1_Blockout'
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB42CE001_1537510060, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB4DBDF01_1620751224, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB41FE001_1288458264, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB41FE001_1337783267, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB493DF01_1589073550, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB48FDF01_1483801846, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_15, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB41EE001_1704645079, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_13, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB42CE001_1575132068, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB422E001_1428307814, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB40CE301_1469917119, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB431E001_1074017523, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_5, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_4, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_2, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_1, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_9, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_11, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB423DB01_1981787586, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_7, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_6, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB430E001_1486539339, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_12, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB48FDF01_1509716847, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB42CE001_1168023055, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_10, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB493DF01_1611308551, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB430E001_1724298343, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB433E001_1788123420, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_3, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB424DB01_1130488765, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB42FE001_1186997018, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB41FE001_1379387269, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB42CE001_1552463062, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB42CE001_1195339057, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_0, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB41FE001_1094622262, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB41EE001_1900769083, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB48FDF01_1518124848, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_14, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_8, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB42CE001_1567067066, they are designed to work with AAIControllers!
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB42CE001_1559286064, they are designed to work with AAIControllers!
+PIE: Warning: AttachTo: '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C98979E001_1779084269.DefaultSceneRoot' is not static  (in blueprint "BP_BlueWindowLight"), cannot attach '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C98979E001_1779084269.StaticMesh' which is static to it. Aborting.
+PIE: Warning: AttachTo: '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C98979E001_1929956272.DefaultSceneRoot' is not static  (in blueprint "BP_BlueWindowLight"), cannot attach '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C98979E001_1929956272.StaticMesh' which is static to it. Aborting.
+PIE: Warning: AttachTo: '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C98979E001_1863299271.DefaultSceneRoot' is not static  (in blueprint "BP_BlueWindowLight"), cannot attach '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C98979E001_1863299271.StaticMesh' which is static to it. Aborting.
+PIE: Warning: AttachTo: '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C9897AE001_1563437353.DefaultSceneRoot' is not static  (in blueprint "BP_BlueWindowLight"), cannot attach '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C9897AE001_1563437353.StaticMesh' which is static to it. Aborting.
+PIE: Warning: AttachTo: '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C98979E001_1722510267.DefaultSceneRoot' is not static  (in blueprint "BP_BlueWindowLight"), cannot attach '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C98979E001_1722510267.StaticMesh' which is static to it. Aborting.
+PIE: Warning: AttachTo: '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C98979E001_1754484268.DefaultSceneRoot' is not static  (in blueprint "BP_BlueWindowLight"), cannot attach '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C98979E001_1754484268.StaticMesh' which is static to it. Aborting.
+PIE: Warning: AttachTo: '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C98979E001_1690430266.DefaultSceneRoot' is not static  (in blueprint "BP_BlueWindowLight"), cannot attach '/Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_BlueWindowLight_C_UAID_BCE92FA2C98979E001_1690430266.StaticMesh' which is static to it. Aborting.
+LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D16E201_1745385772
+LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D6AE001_2056400418
+LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D6AE001_2056400418
+LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D6AE001_2056400418
+LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D6AE001_2056400418
+LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D6AE001_2056400418
+LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D6AE001_2056400418
+LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D6AE001_2056400418
+LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Array' of length 1 in '/Game/GameArt/Environment/Blueprints/BP_PlaceMeshAlongSpline.BP_PlaceMeshAlongSpline_C:SetMeshArray'!
+LogScript: Warning: Script Msg called by: BP_PlaceMeshAlongSpline_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_PlaceMeshAlongSpline_C_UAID_BCE92FA2C51D6AE001_2056400418
+LogCook: Display: Cooked packages 1984 Packages Remain 559 Total 2543
+LogCook: Display: Cook Diagnostics: OpenFileHandles=3563, VirtualMemory=5135MiB
+LogMaterial: Display: Missing cached shadermap for M_EyeRefractive in PCD3D_SM6, Default, SM6 (DDC key hash: 25a5685edc9e320aedcf56b337dd0ed3c33546e9), compiling.
+LogShaderCompilers: Display: Current jobs: 80, Batch size: 6, Num Already Dispatched: 0
+LogMaterial: Display: Missing cached shadermap for MI_ChildEyes in PCD3D_SM6, Default, SM6 (DDC key hash: ed6a02299dc250d618b71c01cc6696fb6bc66106), compiling.
+LogShaderCompilers: Display: Current jobs: 80, Batch size: 7, Num Already Dispatched: 80
+LogMaterial: Display: Missing cached shadermap for MI_MC_Eyes in PCD3D_SM6, Default, SM6 (DDC key hash: 566a9d8b05d91274ed825600bd57db91b577e23a), compiling.
+LogShaderCompilers: Display: Current jobs: 80, Batch size: 7, Num Already Dispatched: 160
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Child/A_ARIA_Idle.A_ARIA_Idle
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Child/A_ARIA_Walk_Duo.A_ARIA_Walk_Duo
+LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/GameArt/Animation/Animations/Child/A_ARIA_Idle_Duo.A_ARIA_Idle_Duo
+LogCook: Display: Cooked packages 2160 Packages Remain 387 Total 2547
+LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+  CookSettings.bUseSoftGC: Available physical memory 32611MiB is less than the current target for SoftGC 32655MiB.
+LogCookCommandlet: Display: GarbageCollection... (Soft GC)
+LogCook: Display: GarbageCollection Results:
+	Type: Soft
+	NumObjects:
+		Capacity:           25231360
+		Before GC:            230603
+		After GC:             126895
+		Freed by GC:          103708
+	Virtual Memory:
+		Before GC:              5592 MB
+		After GC:               5306 MB
+		Freed by GC:             285 MB
+
+LogCook: Display: Cooked packages 2495 Packages Remain 52 Total 2547
+LogCook: Display: Cooked packages 2545 Packages Remain 3 Total 2548
+LogCook: Display: Cooked packages 2545 Packages Remain 3 Total 2548
+LogMaterial: Display: Missing cached shadermap for MI_ChildEyes in PCD3D_SM5, Low, SM5 (DDC key hash: 89b63f887ec3ca5b0adeac6fa513e6c8d1a44746), compiling.
+LogShaderCompilers: Display: Current jobs: 70, Batch size: 7, Num Already Dispatched: 80
+LogMaterial: Display: Missing cached shadermap for M_EyeRefractive in PCD3D_SM5, Low, SM5 (DDC key hash: 30619e233fe52ddd08816f35c709c4432404e7b5), compiling.
+LogShaderCompilers: Display: Current jobs: 70, Batch size: 7, Num Already Dispatched: 150
+LogCook: Display: Cooked packages 2545 Packages Remain 3 Total 2548
+LogMaterial: Display: Missing cached shadermap for MI_MC_Eyes in PCD3D_SM5, Low, SM5 (DDC key hash: 3e8386ceb97c3658cc5636501fafb34b778f2477), compiling.
+LogShaderCompilers: Display: Current jobs: 70, Batch size: 7, Num Already Dispatched: 119
+LogCook: Display: Cooked packages 2545 Packages Remain 3 Total 2548
+LogCook: Display: Cooked packages 2545 Packages Remain 3 Total 2548
+LogCook: Display: Cook Diagnostics: OpenFileHandles=2567, VirtualMemory=5044MiB
+LogCook: Display: Cooked packages 2545 Packages Remain 3 Total 2548
+LogCook: Display: Cooked packages 2545 Packages Remain 3 Total 2548
+LogMaterial: Display: Missing cached shadermap for MI_ChildEyes in PCD3D_SM5, Default, SM5 (DDC key hash: ca42b2dd15d90b2fe0b74a41f3387d1dfa6df501), compiling.
+LogShaderCompilers: Display: Current jobs: 70, Batch size: 7, Num Already Dispatched: 77
+LogMaterial: Display: Missing cached shadermap for M_EyeRefractive in PCD3D_SM5, Default, SM5 (DDC key hash: 2ae691f243b7f237f4c90faf04a55381790c5db1), compiling.
+LogShaderCompilers: Display: Current jobs: 70, Batch size: 7, Num Already Dispatched: 140
+LogCook: Display: Cooked packages 2545 Packages Remain 3 Total 2548
+LogCook: Display: Cooked packages 2545 Packages Remain 3 Total 2548
+LogCook: Display: Cooked packages 2545 Packages Remain 3 Total 2548
+LogCook: Display: Cooked packages 2545 Packages Remain 3 Total 2548
+LogMaterial: Display: Missing cached shadermap for MI_MC_Eyes in PCD3D_SM5, Default, SM5 (DDC key hash: 4f7dd01103c634e5bc6cd7d84d72644c9e6a12c0), compiling.
+LogShaderCompilers: Display: Current jobs: 70, Batch size: 7, Num Already Dispatched: 70
+LogCook: Display: Cooked packages 2546 Packages Remain 2 Total 2548
+LogCook: Display: Cook Diagnostics: OpenFileHandles=2567, VirtualMemory=5045MiB
+LogCook: Display: Cooked packages 2546 Packages Remain 2 Total 2548
+LogCook: Display: Cooked packages 2546 Packages Remain 2 Total 2548
+LogCook: Display: Cooked packages 2547 Packages Remain 1 Total 2548
+LogCook: Display: Cooked packages 2547 Packages Remain 1 Total 2548
+LogCook: Display: Cooked packages 2548 Packages Remain 0 Total 2548
+LogCook: Display: Cook Diagnostics: OpenFileHandles=2567, VirtualMemory=5043MiB
+LogCook: Display: Finishing up...
+LogAssetRegistryGenerator: Display: Saving asset registry v17.
+LogAssetRegistryGenerator: Display: Generated development asset registry D:/BloodRenegade/BloodRenegade/Saved/Cooked/Windows/BloodRenegade/Metadata/DevelopmentAssetRegistry.bin num assets 2692, size is 2088.31kb
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 2505, size is 822.54kb
+LogAssetRegistryGenerator: Display: Done saving asset registry. Took 0.1 seconds.
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'BloodRenegade' (PCD3D_SM6-PCD3D_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 365, Unique Shadermaps: 472 (129.32%)
+LogShaderLibrary: Display: Total Shaders: 9184, Unique Shaders: 6053 (65.91%)
+LogShaderLibrary: Display: Total Shader Size: 211.65mb, Unique Shaders Size: 157.15mb (74.25%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 9
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 453
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     399, 81, 77, 51, 44, 43, 41, 40, 39, 37
+LogShaderLibrary: Display: Textual dump saved to 'D:/BloodRenegade/BloodRenegade/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-BloodRenegade-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'BloodRenegade' (PCD3D_SM5-PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 365, Unique Shadermaps: 472 (129.32%)
+LogShaderLibrary: Display: Total Shaders: 7771, Unique Shaders: 5156 (66.35%)
+LogShaderLibrary: Display: Total Shader Size: 56.00mb, Unique Shaders Size: 49.48mb (88.36%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 9
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 344
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     399, 95, 91, 54, 52, 44, 43, 43, 42, 39
+LogShaderLibrary: Display: Textual dump saved to 'D:/BloodRenegade/BloodRenegade/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-BloodRenegade-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Finalize package store(s)...
+LogCook: Display: Done finalizing package store(s)
+LogCook: Display: Cook by the book total time in tick 116.283494s total time 121.531364
+LogCook: Display: Peak Used virtual 5455 MiB Peak Used physical 5375 MiB
+LogCook: Display: Packages Cooked: 2548, Packages Iteratively Skipped: 0, Total Packages: 2548
+LogCook: Display: Hierarchy Timer Information:
+LogCook: Display:   Root: 0.000s (0)
+LogCook: Display:     CleanSandbox: 0.069s (1)
+LogCook: Display:     CollectFilesToCook: 0.016s (1)
+LogCook: Display:       CookModificationDelegate: 0.001s (1)
+LogCook: Display:     GenerateLongPackageName: 0.000s (1)
+LogCook: Display:     TickMainCookLoop: 116.283s (2)
+LogCook: Display:       PumpPollables: 0.032s (44)
+LogCook: Display:       PumpRequests: 0.025s (81)
+LogCook: Display:       LoadPackageForCooking: 16.225s (2548)
+LogCook: Display:       SavingPackages: 19.469s (7552)
+LogCook: Display:         PollPendingCookedPlatformDatas: 1.417s (31764)
+LogCook: Display:         PrepareSave: 0.753s (29518)
+LogCook: Display:         PrecachePlatformDataForNextPackage: 2.970s (2547)
+LogCook: Display:           PrepareSave: 2.969s (3218)
+LogCook: Display:         SaveCookedPackage: 12.686s (2548)
+LogCook: Display:           GEditorSavePackage: 12.307s (2548)
+LogCook: Display:             VerifyCanCookPackage: 0.059s (2361)
+LogCook: Display:           TargetDomainDependencies: 0.002s (2548)
+LogCook: Display:         ClearAllCachedCookedPlatformData: 0.019s (2548)
+LogCook: Display:       PostLoadPackageFixup: 6.348s (15)
+LogCook: Display:       WaitForAsync: 72.173s (1844947)
+LogCook: Display:     SavingCurrentIniSettings: 0.016s (1)
+LogCook: Display:       ProcessingAccessedStrings: 0.002s (1)
+LogCook: Display:     SavingAssetRegistry: 0.669s (1)
+LogCook: Display:       BuildChunkManifest: 0.059s (1)
+LogCook: Display:       SaveManifests: 0.000s (1)
+LogCook: Display:       SaveRealAssetRegistry: 0.113s (1)
+LogCook: Display:       WriteCookerOpenOrder: 0.102s (1)
+LogCook: Display:     FinalizePackageStore: 0.024s (1)
+LogCook: Display: Done!
+LogSavePackage: Display: Took 0.010117s to verify the EDL loading graph.
+LogCook: Display: Misc Cook Stats
+LogCook: Display: ===============
+LogCook: Display: NiagaraShader.Misc
+LogCook: Display:     ShadersCompiled=0
+LogCook: Display: ComputeKernelShader.Misc
+LogCook: Display:     ShadersCompiled=0
+LogCook: Display: ShaderCompiler
+LogCook: Display:     BlockingTimeSec=0.000102
+LogCook: Display:     AsyncCompileTimeSec=0.000000
+LogCook: Display:     GlobalBeginCompileShaderTimeSec=0.493094
+LogCook: Display:     GlobalBeginCompileShaderCalls=960
+LogCook: Display:     ProcessAsyncResultsTimeSec=0.185393
+LogCook: Display: GlobalShader.Misc
+LogCook: Display:     ShadersCompiled=0
+LogCook: Display: MeshMaterial.Misc
+LogCook: Display:     ShadersCompiled=960
+LogCook: Display: MaterialShader.Misc
+LogCook: Display:     ShadersCompiled=0
+LogCook: Display: MaterialInstance
+LogCook: Display:     UpdateCachedExpressionDataSec=0.056798
+LogCook: Display: Material
+LogCook: Display:     UpdateCachedExpressionDataSec=0.046071
+LogCook: Display: Package.Load
+LogCook: Display:     NumInlineLoads=1949
+LogCook: Display:     NumPreloadedDependencies=1343
+LogCook: Display:     NumPackagesLoaded=3744
+LogCook: Display:     LoadPackageTimeSec=26.525122
+LogCook: Display: Package.Save
+LogCook: Display:     NumPackagesIterativelySkipped=0
+LogCook: Display:     NumPackagesSaved=2548
+LogCook: Display:     SavePackageTimeSec=8.211515
+LogCook: Display:     TagPackageExportsPresaveTimeSec=0.000000
+LogCook: Display:     TagPackageExportsTimeSec=0.000000
+LogCook: Display:     FullyLoadLoadersTimeSec=0.000000
+LogCook: Display:     ResetLoadersTimeSec=0.000000
+LogCook: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+LogCook: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+LogCook: Display:     SerializeImportsTimeSec=0.000000
+LogCook: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+LogCook: Display:     SerializeExportsTimeSec=0.000000
+LogCook: Display:     SerializeBulkDataTimeSec=0.016210
+LogCook: Display:     AsyncWriteTimeSec=0.000000
+LogCook: Display:     MBWritten=0.000000
+LogCook: Display: CookOnTheFlyServer
+LogCook: Display:     PeakRequestQueueSize=1638
+LogCook: Display:     PeakLoadQueueSize=1218
+LogCook: Display:     PeakSaveQueueSize=239
+LogCook: Display: Package.DifferentPackagesSizeMBPerAsset
+LogCook: Display: Package.NumberOfDifferencesInPackagesPerAsset
+LogCook: Display: Package.PackageDifferencesSizeMBPerAsset
+LogCook: Display: Package.DiffTotal
+LogCook: Display:     NumberOfDifferentPackages=0
+LogCook: Display:     DifferentPackagesSizeMB=0.000000
+LogCook: Display:     NumberOfDifferencesInPackages=0
+LogCook: Display:     PackageDifferencesSizeMB=0.000000
+LogCook: Display: UnversionedProperties
+LogCook: Display:     SavedStructs=0
+LogCook: Display:     SavedMB=0
+LogCook: Display:     EquivalentTaggedMB=0
+LogCook: Display:     CompressionRatio=-nan(ind)
+LogCook: Display:     BitfieldWasteKB=0
+LogCook: Display:
+LogCook: Display: Cook Profile
+LogCook: Display: ============
+LogCook: Display:  0.CookWallTimeSec=127.953320
+LogCook: Display:  0. 0.StartupWallTimeSec=6.400937
+LogCook: Display:  0. 1.CookByTheBookTimeSec=121.543097
+LogCook: Display:  0. 1. 0.StartCookByTheBookTimeSec=3.791400
+LogCook: Display:  0. 1. 0. 0.BlockOnAssetRegistryTimeSec=0.061914
+LogCook: Display:  0. 1. 0. 1.GameCookModificationDelegateTimeSec=0.000501
+LogCook: Display:  0. 1. 1.TickCookOnTheSideTimeSec=116.994924
+LogCook: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=16.226441
+LogCook: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=12.686769
+LogCook: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+LogCook: Display:  0. 1. 1. 2.TickCookOnTheSidePrepareSaveTimeSec=3.723659
+LogCook: Display:  0. 1. 2.TickLoopGCTimeSec=0.745113
+LogCook: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.000000
+LogCook: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.011228
+LogCook: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000454
+LogCook: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000015
+LogCook: Display:  0. 1. 7.TickLoopFlushRenderingCommandsTimeSec=0.019256
+LogCook: Display:  0. 1. 8.TargetPlatforms=Windows
+LogCook: Display:  0. 1. 9.CookProject=BloodRenegade
+LogCook: Display:  0. 1. 10.CookCultures=
+LogCook: Display:  0. 1. 11.IsCookAll=false
+LogCook: Display:  0. 1. 12.IsCookOnTheFly=false
+LogCook: Display:  0. 1. 13.IsIterativeCook=false
+LogCook: Display:  0. 1. 14.IsUnversioned=true
+LogCook: Display:  0. 1. 15.CookLabel=
+LogCook: Display:  0. 1. 16.IsFastCook=false
+LogCook: Display:
+LogCook: Display: DDC Summary Stats
+LogCook: Display: =================
+LogCook: Display: BackEnd         =InstalledDerivedDataBackendGraph
+LogCook: Display: HasLocalCache   =      true
+LogCook: Display: HasSharedCache  =     false
+LogCook: Display: HasCloudCache   =     false
+LogCook: Display: HasZenCache     =     false
+LogCook: Display: TotalGetHits    =      9054
+LogCook: Display: TotalGetMisses  =        12
+LogCook: Display: TotalGets       =      9066
+LogCook: Display: TotalGetHitPct  =  0.998676
+LogCook: Display: GetMissPct      =  0.001324
+LogCook: Display: TotalPutHits    =        12
+LogCook: Display: TotalPutMisses  =         0
+LogCook: Display: TotalPuts       =        12
+LogCook: Display: TotalPutHitPct  =  1.000000
+LogCook: Display: PutMissPct      =  0.000000
+LogCook: Display: LocalGetHits    =      8636
+LogCook: Display: LocalGetTotal   =      8648
+LogCook: Display: LocalGetHitPct  =  0.998612
+LogCook: Display: SharedGetHits   =         0
+LogCook: Display: SharedGetTotal  =         0
+LogCook: Display: SharedGetHitPct =  0.000000
+LogCook: Display: CloudGetHits    =         0
+LogCook: Display: CloudGetTotal   =         0
+LogCook: Display: CloudGetHitPct  =  0.000000
+LogCook: Display: LocalLatency    =  0.022958
+LogCook: Display: LocalReadSpeed  =199.782425
+LogCook: Display: LocalWriteSpeed = 77.699934
+LogCook: Display: SharedLatency   =  0.000000
+LogCook: Display: SharedReadSpeed =  0.000000
+LogCook: Display: SharedWriteSpeed=  0.000000
+LogCook: Display: CloudLatency    =  0.000000
+LogCook: Display: CloudReadSpeed  =  0.000000
+LogCook: Display: CloudWriteSpeed =  0.000000
+LogCook: Display:
+LogCook: Display: DDC Resource Stats
+LogCook: Display: =======================================================================================================
+LogCook: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+LogCook: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+LogCook: Display: Texture (Streaming)                             5.69                   0.00             0       1421.64
+LogCook: Display: BodySetup                                       2.64                   2.19             0        581.26
+LogCook: Display: MaterialShader                                  0.87                   0.87            12        414.58
+LogCook: Display: StaticMesh                                      0.62                   0.04             0        229.57
+LogCook: Display: GlobalShader                                    0.46                   0.46             0        118.31
+LogCook: Display: SkeletalMesh                                    0.39                   0.00             0         77.26
+LogCook: Display: DistanceField                                   0.37                   0.01             0         40.33
+LogCook: Display: NavCollision                                    0.17                   0.00             0         12.11
+LogCook: Display: CardRepresentation                              0.16                   0.01             0          0.11
+LogCook: Display: NiagaraScript                                   0.09                   0.09             0          0.00
+LogCook: Display: Audio (Streaming)                               0.05                   0.00             0          6.66
+LogCook: Display: NiagaraShader                                   0.04                   0.04             0          0.82
+LogCook: Display: Texture (Inline)                                0.02                   0.02             0        303.35
+LogCook: Display: AnimSequence                                    0.01                   0.00             0          6.62
+LogCook: Display: ComputeKernelShader                             0.01                   0.01             0          1.07
+LogCook: Display: NiagaraCutout                                   0.00                   0.00             0          0.00
+LogCook: Display: Audio (Inline)                                  0.00                   0.00             0          0.02
+LogPackageBuildDependencyTracker: Display: Package Accesses (2463 referencing packages with a total of 31408 unique accesses)
+LogInit: Display:
+LogInit: Display: Warning/Error Summary (Unique only)
+LogInit: Display: -----------------------------------
+LogInit: Display: LogCook: Warning: Unable to find package for cooking /Game/Maps/NewBlueprint. Instigator: { StartupSoftObjectPath }.
+LogInit: Display: LogTexture: Warning: AlternateTextureCompression specified but Module not found: TextureFormatOodle.
+LogInit: Display: LogMaterial: Warning: Please resave MaterialFunction /Game/GameArt/MasterMaterial/Characters/MF_EyeHighlights.MF_EyeHighlights.  It is missing a material expression and this will cause any material using this function to recompile shaders each time it loads.
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\Characters\Mannequin_UE4\Meshes\SK_Mannequin.uasset: Failed to load '/Game/GameArt/DRAFT/YM/CharacterEmission/DirectionnalEmissionDetection/M_LightControlledCharacterEmission': Can't find file.
+LogInit: Display: LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\Characters\Mannequin_UE4\Meshes\SK_Mannequin.uasset: VerifyImport: Failed to load package for import object 'Package /Game/GameArt/DRAFT/YM/CharacterEmission/DirectionnalEmissionDetection/M_LightControlledCharacterEmission'
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\BP\ProtoMindControl\WBP_PossessTimer.uasset: Failed to load '/Game/GameArt/UI/HUD_SoldierPosess': Can't find file.
+LogInit: Display: LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\BP\ProtoMindControl\WBP_PossessTimer.uasset: VerifyImport: Failed to load package for import object 'Package /Game/GameArt/UI/HUD_SoldierPosess'
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163211915, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163201912, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163194910, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163180906, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163198911, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163215916, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163177905, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163191909, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163173904, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163184907, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163187908, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163208914, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB460C101_1163204913, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB451C101_1521078262, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB451C101_1521081263, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB451C101_1521074261, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1253031111, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1253024109, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1253035112, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1253028110, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1253038113, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB456C101_1212478141, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB456C101_1212474140, they are designed to work with AAIControllers!
+LogInit: Display: LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB456C101_1212481142, they are designed to work with AAIControllers!
+LogInit: Display: LogBlueprint: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\Environment\DownloadedProps\Brutalism\BrutalistLevelKit\Blueprints\Furniture\Parent\BP_P_Furniture.uasset: [Compiler] Add Instance World Space : Usage of 'Add Instance World Space' has been deprecated. Use 'Add Instance' or 'Add Instances' with 'World Space' set to true.
+LogInit: Display: LogBlueprint: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\Environment\DownloadedProps\Brutalism\BrutalistLevelKit\Blueprints\Building\Parent\BP_P_Building.uasset: [Compiler] Add Instance World Space : Usage of 'Add Instance World Space' has been deprecated. Use 'Add Instance' or 'Add Instances' with 'World Space' set to true.
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\__ExternalActors__\Maps\L_BasicLevel_Blockout\0\9D\EXIZPL8XN9C400P9XZCTGC.uasset: Failed to load '/Game/LevelDesign/BP_LevelObjects/BP_Lamp': Can't find file.
+LogInit: Display: LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\__ExternalActors__\Maps\L_BasicLevel_Blockout\0\9D\EXIZPL8XN9C400P9XZCTGC.uasset: VerifyImport: Failed to load package for import object 'Package /Game/LevelDesign/BP_LevelObjects/BP_Lamp'
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\__ExternalActors__\Maps\L_BasicLevel_Blockout\0\XR\52OXDDX2NWOYLRTX8T4QYA.uasset: Failed to load '/Game/Draft/SQ_LedgeBite': Can't find file.
+LogInit: Display: LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\__ExternalActors__\Maps\L_BasicLevel_Blockout\0\XR\52OXDDX2NWOYLRTX8T4QYA.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Draft/SQ_LedgeBite'
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\Megascans\Decals\Graffiti_vlrkdiyc\MI_Graffiti_vlrkdiyc_1K.uasset: Failed to load '/Game/Megascans/Decals/Graffiti_vlrkdiyc/T_Graffiti_vlrkdiyc_1K_D': Can't find file.
+LogInit: Display: LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\Megascans\Decals\Graffiti_vlrkdiyc\MI_Graffiti_vlrkdiyc_1K.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Megascans/Decals/Graffiti_vlrkdiyc/T_Graffiti_vlrkdiyc_1K_D'
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\Megascans\Decals\Graffiti_vlrkdiyc\MI_Graffiti_vlrkdiyc_1K.uasset: Failed to load '/Game/Megascans/Decals/Graffiti_vlrkdiyc/T_Graffiti_vlrkdiyc_1K_DpRA': Can't find file.
+LogInit: Display: LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\Megascans\Decals\Graffiti_vlrkdiyc\MI_Graffiti_vlrkdiyc_1K.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Megascans/Decals/Graffiti_vlrkdiyc/T_Graffiti_vlrkdiyc_1K_DpRA'
+LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\__ExternalActors__\Maps\L_BasicLevel_Blockout\B\A4\LI42OV4TU8JLZ9T68GJXRX.uasset: Failed to load '/Game/Draft/SQ_Moveset': Can't find file.
+LogInit: Display: LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\__ExternalActors__\Maps\L_BasicLevel_Blockout\B\A4\LI42OV4TU8JLZ9T68GJXRX.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Draft/SQ_Moveset'
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'BP_HookPoint': BP_Lamp_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_Lamp_C_UAID_BCE92FA2CAB479E001_1488118268
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Lamp_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_Lamp_C_UAID_BCE92FA2CAB479E001_1488118268
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SpotLight1': BP_Lamp_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_Lamp_C_UAID_BCE92FA2CAB479E001_1488118268
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SM_NYCB1_Lamp_01': BP_Lamp_C /Game/Maps/L_BasicLevel_Blockout.L_BasicLevel_Blockout:PersistentLevel.BP_Lamp_C_UAID_BCE92FA2CAB479E001_1488118268
+LogInit: Display: LogScript: Warning: Script Msg: Attempted to access index 0 from array 'LocalStaticMeshes' of length 0 in '/Game/GameArt/Environment/DownloadedProps/Brutalism/BrutalistLevelKit/Blueprints/Building/Parent/BP_P_Building.BP_P_Building_C:CreateHISMs'!
+LogInit: Display: LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_0
+LogInit: Display: LogScript: Warning: Script Msg called by: BP_Carpet_C /Game/Maps/GameArt/02_Diorama_Interior_New.02_Diorama_Interior_New:PersistentLevel.BP_Carpet_C_UAID_BCE92FA2C9894DC301_1858641680
+LogInit: Display: NOTE: Only first 50 warnings displayed.
+LogInit: Display:
+LogInit: Display: Success - 0 error(s), 362 warning(s)
+LogInit: Display:
+
+Execution of commandlet took:  2m 1s (121.55 seconds)
+LogShaderCompilers: Display: ================================================
+LogShaderCompilers: Display: === FShaderJobCache stats ===
+LogShaderCompilers: Display: Total job queries 900, among them cache hits 0 (0.00%)
+LogShaderCompilers: Display: Tracking 900 distinct input hashes that result in 267 distinct outputs (29.67%)
+LogShaderCompilers: Display: RAM used: 4,35 MiB of 3,20 GiB budget. Usage: 0.13%
+LogShaderCompilers: Display: === Shader Compilation stats ===
+LogShaderCompilers: Display: Shaders Compiled: 900
+LogShaderCompilers: Display: Jobs assigned 900, completed 900 (100.00%)
+LogShaderCompilers: Display: Time job spent in pending queue: average 0.00 s, longest 0.01 s
+LogShaderCompilers: Display: Job execution time: average 16.98 s, max 35.20 s
+LogShaderCompilers: Display: Job life time (pending + execution): average 16.99 s, max 35.21
+LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 99.73 s
+LogShaderCompilers: Display: Jobs were issued in 136 batches (only distributed compilation was used), average 6.62 jobs/batch
+LogShaderCompilers: Display: Average processing rate: 9.02 jobs/sec
+LogShaderCompilers: Display: Total thread time: 974,963 s
+LogShaderCompilers: Display: Total thread preprocess time: 55,201 s
+LogShaderCompilers: Display: Percentage time preprocessing: 5.66%
+LogShaderCompilers: Display: Effective parallelization: 9.78 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   12 times, average 2.43 sec, max 4.28 sec, min 1.28 sec)
+LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   60 times, average 2.19 sec, max 4.93 sec, min 0.66 sec)
+LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   60 times, average 2.13 sec, max 5.59 sec, min 0.63 sec)
+LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   12 times, average 2.08 sec, max 3.02 sec, min 0.98 sec)
+LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   60 times, average 1.89 sec, max 6.18 sec, min 0.44 sec)
+LogShaderCompilers: Display: Top 5 shader types by total compile time:
+LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 13.50% of total time (compiled   60 times, average 2.19 sec, max 4.93 sec, min 0.66 sec)
+LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.08% of total time (compiled   60 times, average 2.13 sec, max 5.59 sec, min 0.63 sec)
+LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.63% of total time (compiled   60 times, average 1.89 sec, max 6.18 sec, min 0.44 sec)
+LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth - 8.71% of total time (compiled   60 times, average 1.42 sec, max 4.69 sec, min 0.37 sec)
+LogShaderCompilers: Display:            TShadowDepthVSVertexShadowDepth_OnePassPointLight - 8.61% of total time (compiled   60 times, average 1.40 sec, max 4.83 sec, min 0.44 sec)
+LogShaderCompilers: Display: ================================================
+LogShaderCompilers: Display: Shaders left to compile 0
+LogShaderCompilers: Display: Shaders left to compile 0
+LogWwiseConcurrency: Display: Shutting down default Concurrency.
+LogWwiseReconcile: Display: Shutting down Wwise Reconcile Module
+LogWwiseNiagara: Display: Shutting down default Niagara.
+LogWwiseFileHandler: Display: Shutting down External Source Manager.
+LogWwiseProjectDatabase: Display: Shutting down default Project Database.
+LogWwiseResourceLoader: Display: Shutting down default Resource Loader.
+LogWwiseResourceCooker: Display: Shutting down default Resource Cooker.
+Took 132,2807177s to run UnrealEditor-Cmd.exe, ExitCode=0
+Cook command time: 132,31 s
+********** COOK COMMAND COMPLETED **********
+********** STAGE COMMAND STARTED **********
+Creating Staging Manifest...
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\BaseEditor.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\BaseEditorKeyBindings.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\BaseEditorPerProjectUserSettings.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\BaseEditorSettings.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\BaseLightmass.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\BasePakFileRules.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\Localization\Category.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\Localization\Editor.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\Localization\EditorTutorials.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\Localization\Engine.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\Localization\Keywords.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\Localization\PortableObjectExport.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\Localization\PortableObjectImport.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\Localization\PropertyNames.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\Localization\RepairData.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\Localization\ToolTips.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\Localization\WordCount.ini
+Excluding config file C:\Program Files\EpicGames\UE_5.2\Engine\Config\Windows\WindowsEditorPerProjectUserSettings.ini
+Excluding config file D:\BloodRenegade\BloodRenegade\Config\DefaultEditor.ini
+Excluding config file D:\BloodRenegade\BloodRenegade\Config\DefaultEditorPerProjectUserSettings.ini
+WARNING: The config file 'BloodRenegade/Config/DefaultImGui.ini' will be staged, but is not explicitly allowed or denied. Add +AllowedConfigFiles=BloodRenegade/Config/DefaultImGui.ini or +DisallowedConfigFiles=BloodRenegade/Config/DefaultImGui.ini to the [Staging] section of DefaultGame.ini
+Cleaning Stage Directory: D:\BloodRenegade\BloodRenegade\Saved\StagedBuilds\Windows
+Creating pak for crash reporter.
+Running: C:\Program Files\EpicGames\UE_5.2\Engine\Binaries\Win64\UnrealPak.exe D:\BloodRenegade\BloodRenegade\BloodRenegade.uproject D:\BloodRenegade\BloodRenegade\Saved\StagedBuilds\Windows\Engine\Programs\CrashReportClient\Content\Paks\CrashReportClient.pak -create="C:\Program Files\EpicGames\UE_5.2\Engine\Programs\AutomationTool\Saved\ResponseFiles\PakList_CrashReportClient.txt"
+LogPakFile: Display: Using command line for crypto configuration
+LogPakFile: Display: CompressionFormats in priority order: Zlib
+LogPakFile: Display: Loading response file C:\Program Files\EpicGames\UE_5.2\Engine\Programs\AutomationTool\Saved\ResponseFiles\PakList_CrashReportClient.txt
+LogPakFile: Display: Added 1840 entries to add to pak file.
+LogPakFile: Display: Collecting files to add to pak file...
+LogPakFile: Display: Collected 1840 files in 0.01s.
+LogPakFile: Display: Creating pak D:\BloodRenegade\BloodRenegade\Saved\StagedBuilds\Windows\Engine\Programs\CrashReportClient\Content\Paks\CrashReportClient.pak.
+LogPakFile: Display: Created pak file: D:\BloodRenegade\BloodRenegade\Saved\StagedBuilds\Windows\Engine\Programs\CrashReportClient\Content\Paks\CrashReportClient.pak
+LogPakFile: Display: CompressionFormat 0 [Zlib] : 214 files, 12117250 -> 5000149 bytes
+LogPakFile: Display: CompressionFormat 1 [None] : 1626 files, 1695568 -> 1695568 bytes
+LogPakFile: Display: Added 1840 files, 6911007 bytes total
+LogPakFile: Display: PrimaryIndex size: 23673 bytes
+LogPakFile: Display: PathHashIndex size: 44494 bytes
+LogPakFile: Display: FullDirectoryIndex size: 43070 bytes
+LogPakFile: Display: Compression summary: 41.26% of original size. Compressed Size 5000149 bytes, Original Size 12117250 bytes.
+LogPakFile: Display: Encryption - DISABLED
+LogPakFile: Display:
+LogPakFile: Display: Writer and Compression Threads exited.
+LogPakFile: Display: UnrealPak executed in 0.149238 seconds
+Took 0,44516829999999996s to run UnrealPak.exe, ExitCode=0
+Creating pak using staging manifest.
+No matching platform for PakFileRules for Section ExcludeContentForMobile : Windows
+Using 0 pak order files:
+Running: C:\Program Files\EpicGames\UE_5.2\Engine\Binaries\Win64\UnrealPak.exe D:\BloodRenegade\BloodRenegade\BloodRenegade.uproject  -cryptokeys=D:\BloodRenegade\BloodRenegade\Saved\Cooked\Windows\BloodRenegade\Metadata\Crypto.json -patchpaddingalign=2048 -compressionformats=Oodle -compressmethod=Kraken -compresslevel=4  -platform=Windows  -CreateMultiple="C:\Users\c.oger\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+EpicGames+UE_5.2\PakCommands.txt"
+LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+LogPakFile: Display: Oodle enabled on 'NoPluginCompression' files
+LogPakFile: Display: Loading response file C:\Program Files\EpicGames\UE_5.2\Engine\Programs\AutomationTool\Saved\ResponseFiles\PakList_BloodRenegade-Windows.txt
+LogPakFile: Display: Added 1496 entries to add to pak file.
+LogPakFile: Display: Collecting files to add to pak file...
+LogPakFile: Display: Collected 1496 files in 0.00s.
+LogPakFile: Display: Creating pak D:\BloodRenegade\BloodRenegade\Saved\StagedBuilds\Windows\BloodRenegade\Content\Paks\BloodRenegade-Windows.pak.
+OodleDataCompression: Display: Oodle v2.9.8 format for pak/iostore with method=Kraken, level=4=Normal
+LogPakFile: Display: Created pak file: D:\BloodRenegade\BloodRenegade\Saved\StagedBuilds\Windows\BloodRenegade\Content\Paks\BloodRenegade-Windows.pak
+LogPakFile: Display: CompressionFormat 0 [Oodle] : 305 files, 36986167 -> 18011885 bytes
+LogPakFile: Display: CompressionFormat 1 [Zlib] : 0 files, 0 -> 0 bytes
+LogPakFile: Display: CompressionFormat 2 [None] : 1191 files, 1115867 -> 1115867 bytes
+LogPakFile: Display: Added 1496 files, 19843546 bytes total
+LogPakFile: Display: PrimaryIndex size: 21462 bytes
+LogPakFile: Display: PathHashIndex size: 42767 bytes
+LogPakFile: Display: FullDirectoryIndex size: 46007 bytes
+LogPakFile: Display: Compression summary: 48.70% of original size. Compressed Size 18011885 bytes, Original Size 36986167 bytes.
+LogPakFile: Display: Encryption - DISABLED
+LogPakFile: Display:
+LogPakFile: Display: Writer and Compression Threads exited.
+LogPakFile: Display: UnrealPak executed in 0.186700 seconds
+Took 0,45739409999999997s to run UnrealPak.exe, ExitCode=0
+Running UnrealPak with arguments: -CreateGlobalContainer=D:\BloodRenegade\BloodRenegade\Saved\StagedBuilds\Windows\BloodRenegade\Content\Paks\global.utoc -CookedDirectory=D:\BloodRenegade\BloodRenegade\Saved\Cooked\Windows -PackageStoreManifest=D:\BloodRenegade\BloodRenegade\Saved\Cooked\Windows\BloodRenegade\Metadata\packagestore.manifest -Commands="C:\Users\c.oger\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+EpicGames+UE_5.2\IoStoreCommands.txt" -ScriptObjects=D:\BloodRenegade\BloodRenegade\Saved\Cooked\Windows\BloodRenegade\Metadata\scriptobjects.bin -patchpaddingalign=2048 -compressionformats=Oodle -compressmethod=Kraken -compresslevel=4   -cryptokeys=D:\BloodRenegade\BloodRenegade\Saved\Cooked\Windows\BloodRenegade\Metadata\Crypto.json -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled
+Running: C:\Program Files\EpicGames\UE_5.2\Engine\Binaries\Win64\UnrealPak.exe -CreateGlobalContainer=D:\BloodRenegade\BloodRenegade\Saved\StagedBuilds\Windows\BloodRenegade\Content\Paks\global.utoc -CookedDirectory=D:\BloodRenegade\BloodRenegade\Saved\Cooked\Windows -PackageStoreManifest=D:\BloodRenegade\BloodRenegade\Saved\Cooked\Windows\BloodRenegade\Metadata\packagestore.manifest -Commands="C:\Users\c.oger\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+EpicGames+UE_5.2\IoStoreCommands.txt" -ScriptObjects=D:\BloodRenegade\BloodRenegade\Saved\Cooked\Windows\BloodRenegade\Metadata\scriptobjects.bin -patchpaddingalign=2048 -compressionformats=Oodle -compressmethod=Kraken -compresslevel=4   -cryptokeys=D:\BloodRenegade\BloodRenegade\Saved\Cooked\Windows\BloodRenegade\Metadata\Crypto.json -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled
+LogIoStore: Display: ==================== IoStore Utils ====================
+LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'D:\BloodRenegade\BloodRenegade\Saved\Cooked\Windows\BloodRenegade\Metadata\Crypto.json'
+LogIoStore: Display: Container signing - DISABLED
+LogIoStore: Display: Directory index - ENABLED
+LogIoStore: Display: Using compression format 'Oodle'
+LogIoStore: Display: Using memory mapping alignment '16384'
+LogIoStore: Display: Using compression block size '65536'
+LogIoStore: Display: Using compression block alignment '2048'
+LogIoStore: Display: Using compression min bytes saved '1024'
+LogIoStore: Display: Using compression min percent saved '5'
+LogIoStore: Display: Using max partition size '0'
+LogIoStore: Display: Not using DDC for compression
+LogIoStore: Display: Using command list file: 'C:\Users\c.oger\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+EpicGames+UE_5.2\IoStoreCommands.txt'
+LogIoStore: Display: Searching for cooked assets in folder 'D:\BloodRenegade\BloodRenegade\Saved\Cooked\Windows'
+LogIoStore: Display: Found '5593' files
+LogIoStore: Display: Using input asset registry: D:\BloodRenegade\BloodRenegade\Saved\Cooked\Windows/BloodRenegade/Metadata/DevelopmentAssetRegistry.bin
+LogIoStore: Display: Added 863 hashes to the hash database, init took 0.000151 seconds
+LogIoStore: Display: Creating container targets...
+LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (2145 MiB)
+LogDerivedDataCache: Display: Performance to C:/Users/c.oger/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.00ms. RandomReadSpeed=999.00MBs, RandomWriteSpeed=999.00MBs. Assigned SpeedClass 'Local'
+OodleDataCompression: Display: Oodle v2.9.8 format for pak/iostore with method=Kraken, level=4=Normal
+LogIoStore: Display: Parsing packages...
+LogIoStore: Display: Reading package assets...
+LogIoStore: Display: Reading 1000/2361: 'D:/BloodRenegade/BloodRenegade/Saved/Cooked/Windows/BloodRenegade/Plugins/Wwise/Content/WwiseTypes/AkMediaAsset.uasset'
+LogIoStore: Display: Reading 2000/2361: 'D:/BloodRenegade/BloodRenegade/Saved/Cooked/Windows/Engine/Content/EngineMaterials/Black_1x1_EXR_Texture_VT.uasset'
+LogIoStore: Display: Processing shader libraries...
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 1065 groups (166 of them didn't need new indices), average uncompressed size 112950 bytes, min 192 bytes, max 993758 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: BloodRenegade-PCD3D_SM5(PCD3D_SM5): Recompressed 5156 shaders as 1065 groups. Library size changed from 50662 KB (2.32 : 1 ratio) to 34624 KB (3.39 : 1 ratio), 68.34% of previous.
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 1178 groups (196 of them didn't need new indices), average uncompressed size 246354 bytes, min 4086 bytes, max 1049621 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: BloodRenegade-PCD3D_SM6(PCD3D_SM6): Recompressed 6053 shaders as 1178 groups. Library size changed from 160917 KB (1.76 : 1 ratio) to 111292 KB (2.55 : 1 ratio), 69.16% of previous.
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 436 groups (166 of them didn't need new indices), average uncompressed size 170174 bytes, min 172 bytes, max 1076390 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: Global-PCD3D_SM5(PCD3D_SM5): Recompressed 4179 shaders as 436 groups. Library size changed from 26967 KB (2.69 : 1 ratio) to 13153 KB (5.51 : 1 ratio), 48.77% of previous.
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 497 groups (163 of them didn't need new indices), average uncompressed size 285911 bytes, min 2166 bytes, max 1076298 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: Global-PCD3D_SM6(PCD3D_SM6): Recompressed 4720 shaders as 497 groups. Library size changed from 85756 KB (1.62 : 1 ratio) to 45258 KB (3.07 : 1 ratio), 52.77% of previous.
+LogIoStore: Display: Processing redirects...
+LogIoStore: Display: Optimizing packages...
+LogIoStore: Display: Finalizing packages...
+LogIoStore: Display: Creating disk layout...
+LogIoStore: Display: Ordered 2361 packages using fallback bundle order
+LogIoStore: Display: Serializing container(s)...
+LogIoStore: Display: Writing chunks (2273/6403)... [1756 compressed] [9270 compression tasks scheduled]
+LogIoStore: Display: Writing chunks (5578/6403)... [2549 compressed] [14182 compression tasks scheduled]
+LogIoStore: Display: Writing chunks (5652/6403)... [3224 compressed]
+LogIoStore: Display: global: Found perfect hashmap for 1 items.
+LogIoStore: Display: BloodRenegade-Windows: Found perfect hashmap for 6402 items.
+LogIoStore: Display: Finalize took 6.8 seconds for 2 writers
+LogIoStore: Display: Calculating stats...
+LogIoStore: Display: --------------------------------------------------- IoDispatcher --------------------------------------------------------
+LogIoStore: Display:
+LogIoStore: Display: Container                           Flags   TOC Size (KB)     TOC Entries       Size (MB)           Compressed (MB)
+LogIoStore: Display: -------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: global                            -/-/-/-            0.60               1            2.12                         -
+LogIoStore: Display: BloodRenegade-Windows             C/-/-/I         1040.32            6402         2597.96    1190.17 (54.19% Oodle)
+LogIoStore: Display: TOTAL                                             1040.92            6403         2600.08                         -
+LogIoStore: Display:
+LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) **
+LogIoStore: Display:
+LogIoStore: Display: Compression block padding:     4.85 MB
+LogIoStore: Display:
+LogIoStore: Display: -------------------------------------------- Container Directory Index --------------------------------------------------
+LogIoStore: Display: Container                            Size (KB)
+LogIoStore: Display: global                                    0.00
+LogIoStore: Display: BloodRenegade-Windows                   146.41
+LogIoStore: Display:
+LogIoStore: Display: ---------------------------------------------- Container Patch Report ---------------------------------------------------
+LogIoStore: Display: Container                         Total (count) Modified (count)    Added (count)    Modified (MB)       Added (MB)
+LogIoStore: Display: global                                        1                0                0             0.00             0.00
+LogIoStore: Display: BloodRenegade-Windows                      6402                0             6402             0.00          1185.32
+LogIoStore: Display:
+LogIoStore: Display:
+LogIoStore: Display: --------------------------------------------------- PackageStore (KB) ---------------------------------------------------
+LogIoStore: Display:
+LogIoStore: Display: Container                                Store Size             Packages            Localized
+LogIoStore: Display: -------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: BloodRenegade-Windows                           111                 2361                    0
+LogIoStore: Display: TOTAL                                           111                 2361                    0
+LogIoStore: Display:
+LogIoStore: Display:
+LogIoStore: Display: --------------------------------------------------- PackageHeader (KB) --------------------------------------------------
+LogIoStore: Display:
+LogIoStore: Display: Container                             Header         Graph ExportBundleEntries     ImportMap     ExportMap       NameMap
+LogIoStore: Display: -------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: BloodRenegade-Windows                   5042           122           530           216          2385          1378
+LogIoStore: Display: TOTAL                                   5042           122           530           216          2385          1378
+LogIoStore: Display:
+LogIoStore: Display:
+LogIoStore: Display: Input:   1004.56 MB UExp
+LogIoStore: Display: Input:      8.07 MB UAsset
+LogIoStore: Display: Input:      2361 Packages
+LogIoStore: Display: Input:     57.04 MB for 933 Global shaders
+LogIoStore: Display: Input:     23.59 MB for 517 Shared shaders
+LogIoStore: Display: Input:      0.00 MB for 0 Unique shaders
+LogIoStore: Display: Input:    118.89 MB for 1723 Inline shaders
+LogIoStore: Display:
+LogIoStore: Display: Output:    67840 Export bundle entries
+LogIoStore: Display: Output:     2377 Export bundles
+LogIoStore: Display: Output:      187 Internal export bundle arcs
+LogIoStore: Display: Output:     6442 External export bundle arcs
+LogIoStore: Display: Output:    40193 Name map entries
+LogIoStore: Display: Output:     4468 Imported package entries
+LogIoStore: Display: Output:     1283 Packages without imports
+LogIoStore: Display: Output:        0 Public runtime script objects
+LogIoStore: Display: Output:     2.12 MB InitialLoadData
+LogPakFile: Display: UnrealPak executed in 27.199951 seconds
+Took 27,5435796s to run UnrealPak.exe, ExitCode=0
+Copying NonUFSFiles to staging directory: D:\BloodRenegade\BloodRenegade\Saved\StagedBuilds\Windows
+Copying DebugFiles to staging directory: D:\BloodRenegade\BloodRenegade\Saved\StagedBuilds\Windows
+Stage command time: 35,24 s
+********** STAGE COMMAND COMPLETED **********
+********** PACKAGE COMMAND STARTED **********
+Package command time: 0,00 s
+********** PACKAGE COMMAND COMPLETED **********
+********** ARCHIVE COMMAND STARTED **********
+Archiving to D:\BloodRenegade\Exe
+Archive command time: 0,48 s
+********** ARCHIVE COMMAND COMPLETED **********
+BuildCookRun time: 171,47 s
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 2m 52s
+AutomationTool exiting with ExitCode=0 (Success)

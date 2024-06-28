@@ -1,0 +1,59 @@
+-----------------------------------
+LogPluginManager: Warning: Engine version string in D:/BloodRenegade/BloodRenegade/Plugins/Runtime/BTUtilityPlugin/BTUtilityPlugin.uplugin could not be parsed ("5.2")
+LogCook: Warning: Unable to find package for cooking /Game/Maps/NewBlueprint. Instigator: { StartupSoftObjectPath }.
+LogTexture: Warning: AlternateTextureCompression specified but Module not found: TextureFormatOodle.
+LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\VFX\Materials\MM_Trail.uasset: Failed to load '/Game/GameArt/DRAFT/YM/T_EnergyTrail': Can't find file.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\VFX\Materials\MM_Trail.uasset: VerifyImport: Failed to load package for import object 'Package /Game/GameArt/DRAFT/YM/T_EnergyTrail'
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1946261165, they are designed to work with AAIControllers
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1946257164, they are designed to work with AAIControllers
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1946254163, they are designed to work with AAIControllers
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1946251162, they are designed to work with AAIControllers
+LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BP_MySoldier_C_UAID_BCE92FA2CAB461C101_1946247161, they are designed to work with AAIControllers
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Plugins\Runtime\HoudiniEngine\Content\Textures\icon_houdini_logo_128.uasset: Asset has been saved with empty engine version. The asset will be loaded but may be incompatible.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Plugins\Runtime\HoudiniEngine\Content\Examples\Chaos\unreal_gc_example_clustering.uasset: Asset has been saved with empty engine version. The asset will be loaded but may be incompatible.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Plugins\Runtime\HoudiniEngine\Content\Examples\Chaos\unreal_gc_example_array.uasset: Asset has been saved with empty engine version. The asset will be loaded but may be incompatible.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Plugins\Runtime\HoudiniEngine\Content\Examples\Chaos\unreal_gc_example.uasset: Asset has been saved with empty engine version. The asset will be loaded but may be incompatible.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Plugins\Runtime\HoudiniEngine\Content\houdini_bgeo_import.uasset: Asset has been saved with empty engine version. The asset will be loaded but may be incompatible.
+LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\HoudiniEngine\Temp\sop_Neon_Tool_0_1\D153D45C\sop_Neon_Tool_0_1_3_4_0_main_geo.uasset: Failed to load '/Game/GameArt/DRAFT/YM/TP_Draft/M_Beam': Can't find file.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\HoudiniEngine\Temp\sop_Neon_Tool_0_1\D153D45C\sop_Neon_Tool_0_1_3_4_0_main_geo.uasset: VerifyImport: Failed to load package for import object 'Package /Game/GameArt/DRAFT/YM/TP_Draft/M_Beam'
+LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\VFX\NiagaraEmitter\NE_RibbonDash.uasset: Failed to load '/Game/GameArt/DRAFT/YM/MI_TrailDash': Can't find file.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\VFX\NiagaraEmitter\NE_RibbonDash.uasset: VerifyImport: Failed to load package for import object 'Package /Game/GameArt/DRAFT/YM/MI_TrailDash'
+LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\VFX\Materials\TeleportMaterial\M_Strtipes.uasset: Failed to load '/Game/GameArt/DRAFT/YM/TP_Draft/T_Anisonoise_M': Can't find file.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\VFX\Materials\TeleportMaterial\M_Strtipes.uasset: VerifyImport: Failed to load package for import object 'Package /Game/GameArt/DRAFT/YM/TP_Draft/T_Anisonoise_M'
+LogMaterial: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\VFX\Materials\TeleportMaterial\M_Strtipes.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+(Node TextureSample) Texture Sample input texture
+LogMaterial: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\VFX\Materials\TeleportMaterial\M_Strtipes.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+(Node TextureSample) Texture Sample input texture
+LogMaterial: Warning: Cooking a material resource (in M_Strtipes hierarchy) that doesn't have a valid ShaderMap Shadermap pointer is null.
+LogUObjectGlobals: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\VFX\Materials\MI_TrailDash.uasset: Failed to load '/Game/GameArt/DRAFT/YM/M_MM_Trail': Can't find file.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\VFX\Materials\MI_TrailDash.uasset: VerifyImport: Failed to load package for import object 'Package /Game/GameArt/DRAFT/YM/M_MM_Trail'
+LogMaterial: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\MasterMaterial\Characters\Eyelashes\M_Eyelashes_Cards.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+Missing Material Function
+(Node TextureSampleParameter2D) Param2D NULL, requires Texture2D
+LogMaterial: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\MasterMaterial\Characters\Eyelashes\M_Eyelashes_Cards.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+Missing Material Function
+(Node TextureSampleParameter2D) Param2D NULL, requires Texture2D
+LogMaterial: Warning: Cooking a material resource (in M_Eyelashes_Cards hierarchy) that doesn't have a valid ShaderMap Shadermap pointer is null.
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\Characters\Child\WillsRenderSettings.uasset: VerifyImport: Failed to find script package for import object 'Package /Script/MovieRenderPipelineCore'
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\Characters\Child\WillsRenderSettings.uasset: VerifyImport: Failed to find script package for import object 'Package /Script/MovieRenderPipelineRenderPasses'
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\GameArt\Characters\Child\WillsRenderSettings.uasset: VerifyImport: Failed to find script package for import object 'Package /Script/MovieRenderPipelineSettings'
+LogLinker: Warning: Unable to load DefaultOutputSetting with outer MoviePipelinePrimaryConfig /Game/GameArt/Characters/Child/WillsRenderSettings.WillsRenderSettings because its class (MoviePipelineOutputSetting) does not exist
+LogLinker: Warning: Unable to load WillsRenderSettings with outer Package /Game/GameArt/Characters/Child/WillsRenderSettings because its class (MoviePipelinePrimaryConfig) does not exist
+LogLinker: Warning: Unable to load DefaultOutputSetting with outer MoviePipelinePrimaryConfig /Game/GameArt/Characters/Child/Render_Turntable.Render_Turntable because its class (MoviePipelineOutputSetting) does not exist
+LogLinker: Warning: Unable to load Render_Turntable with outer Package /Game/GameArt/Characters/Child/Render_Turntable because its class (MoviePipelinePrimaryConfig) does not exist
+LogLinker: Warning: Unable to load DefaultOutputSetting with outer MoviePipelinePrimaryConfig /Game/GameArt/Characters/Child/Render_PathTracing.Render_PathTracing because its class (MoviePipelineOutputSetting) does not exist
+LogLinker: Warning: Unable to load Render_PathTracing with outer Package /Game/GameArt/Characters/Child/Render_PathTracing because its class (MoviePipelinePrimaryConfig) does not exist
+LogLinker: Warning: [AssetLog] D:\BloodRenegade\BloodRenegade\Content\BP\AI\A_CPPCharacter.uasset: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BP/AI/A_CPPCharacter.A_CPPCharacter_C
+LogLinker: Warning: Unable to load Default__A_CPPCharacter_C with outer Package /Game/BP/AI/A_CPPCharacter because its class (A_CPPCharacter_C) does not exist
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': A_CPPCharacter_C /Game/BP/AI/A_CPPCharacter.Default__A_CPPCharacter_C
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'FollowCamera': A_CPPCharacter_C /Game/BP/AI/A_CPPCharacter.Default__A_CPPCharacter_C
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': A_CPPCharacter_C /Game/BP/AI/A_CPPCharacter.Default__A_CPPCharacter_C
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': A_CPPCharacter_C /Game/BP/AI/A_CPPCharacter.Default__A_CPPCharacter_C
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/BP/AI/A_CPPCharacter.A_CPPCharacter_C
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/BP/AI/A_CPPCharacter.A_CPPCharacter_C
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/BP/AI/A_CPPCharacter.A_CPPCharacter_C:SimpleConstructionScript_0
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': A_CPPCharacter_C /Game/BP/AI/A_CPPCharacter.Default__A_CPPCharacter_C
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CameraBoom': A_CPPCharacter_C /Game/BP/AI/A_CPPCharacter.Default__A_CPPCharacter_C
+LogMaterial: Warning: Please resave MaterialFunction /Game/GameArt/MasterMaterial/Characters/MF_EyeHighlights.MF_EyeHighlights.  It is missing a material expression and this will cause any material using this function to recompile shaders each time it loads.
+-----------------------------------
+NOTE: Only first 50 warnings displayed.

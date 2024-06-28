@@ -1,0 +1,9 @@
+PROJECT_PATH=D:\BloodRenegade
+PROJECT_NAME=BloodRenegade
+UE5_PATH=C:\Program Files\EpicGames\UE_5.2
+UE5_REBUILDBAT=C:\Program Files\EpicGames\UE_5.2\Engine\Build\BatchFiles\Rebuild.bat
+BUILD_CONFIG=BloodRenegadeEditor
+PLATFORM=Win64
+CONFIG=Development
+DO_COPY=1
+COPY_DEST=C:\Users\c.oger\Desktop
